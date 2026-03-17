@@ -1,36 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Root -->
-  <url>
-    <loc>https://money-se.github.io/spiken-satelliter/</loc>
-  </url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/</loc></url>
 
-  <!-- Core -->
-  <url><loc>https://money-se.github.io/spiken-satelliter/vad-ar-existentiell-angest.html</loc></url>
-  <url><loc>https://money-se.github.io/spiken-satelliter/vad-ar-inre-konflikt.html</loc></url>
-  <url><loc>https://money-se.github.io/spiken-satelliter/vad-ar-meningsloshet.html</loc></url>
-  <url><loc>https://money-se.github.io/spiken-satelliter/vad-betyder-sjalvinsikt.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/ar-jag-narcissist-eller-bara-osaker.html</loc></url>
 
-  <!-- Varför -->
-  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-ar-jag-aldrig-nojd.html</loc></url>
-  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-hatar-jag-mig-sjalv.html</loc></url>
-  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-inget.html</loc></url>
-  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-ensam-bland-folk.html</loc></url>
-  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-falsk.html</loc></url>
-  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-lost.html</loc></url>
-  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-tom-fast-allt-ar-bra.html</loc></url>
-  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-tanker-jag-sa-mycket.html</loc></url>
-
-  <!-- Hur -->
+  <url><loc>https://money-se.github.io/spiken-satelliter/hur-blir-man-sig-sjalv.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/hur-borjar-man-lita-pa-andra.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/hur-far-man-battre-sjalvkansla.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/hur-far-man-battre-sjalvfortroende.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/hur-far-man-inre-ro.html</loc></url>
   <url><loc>https://money-se.github.io/spiken-satelliter/hur-hittar-man-mening-i-livet.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/hur-hittar-man-tillbaka-till-sig-sjalv.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/hur-lar-man-kanna-sina-kanslor.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/hur-litar-man-pa-sig-sjalv.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/hur-slutar-man-hata-sig-sjalv.html</loc></url>
   <url><loc>https://money-se.github.io/spiken-satelliter/hur-slutar-man-jamfora-sig.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/hur-slutar-man-kanna-sig-tom.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/hur-slutar-man-kanna-sig-fel.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/hur-slutar-man-kanna-skam.html</loc></url>
   <url><loc>https://money-se.github.io/spiken-satelliter/hur-slutar-man-overanalysera-sig-sjalv.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/hur-slutar-man-soka-bekraftelse.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/hur-slutar-man-tvivla-pa-sig-sjalv.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/hur-vet-man-om-man-kanner-ratt.html</loc></url>
   <url><loc>https://money-se.github.io/spiken-satelliter/hur-vet-man-vad-man-vill.html</loc></url>
   <url><loc>https://money-se.github.io/spiken-satelliter/hur-vet-man-vem-man-ar.html</loc></url>
 
-  <!-- Identitet -->
+  <url><loc>https://money-se.github.io/spiken-satelliter/kanner-jag-mig-deprimerad-eller-bara-trott.html</loc></url>
+
+  <url><loc>https://money-se.github.io/spiken-satelliter/vad-ar-ego.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/vad-ar-emotionell-avstangdhet.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/vad-ar-existentiell-angest.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/vad-ar-inre-konflikt.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/vad-ar-inre-tomhet.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/vad-ar-kanslomassig-utmattning.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/vad-ar-meningsloshet.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/vad-ar-sjalvkansla.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/vad-ar-sjalvbedrageri.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/vad-ar-sjalvforakt.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/vad-ar-skam.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/vad-betyder-sjalvinsikt.html</loc></url>
+
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-ar-jag-alltid-trott.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-ar-jag-aldrig-nojd.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-ar-jag-ledsen-utan-anledning.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-hatar-jag-mig-sjalv.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-inget.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-avstangd.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-avtrubbad.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-ensam-bland-folk.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-ensam-i-en-relation.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-falsk.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-for-mycket.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-frammande-for-mig-sjalv.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-liten.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-lost.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-missforstadd.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-orolig-hela-tiden.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-osynlig.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-ointressant.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-otillracklig.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-overvaldigad.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-som-en-belastning.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-som-en-framling.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-splittrad.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-stressad-hela-tiden.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-tom-fast-allt-ar-bra.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-otrygg.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-utanfor.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-kanner-jag-mig-vardelos.html</loc></url>
+  <url><loc>https://money-se.github.io/spiken-satelliter/varfor-tanker-jag-sa-mycket.html</loc></url>
+
   <url><loc>https://money-se.github.io/spiken-satelliter/vem-ar-jag-utan-mina-roller.html</loc></url>
-  <url><loc>https://money-se.github.io/spiken-satelliter/ar-jag-narcissist-eller-bara-osaker.html</loc></url>
 
 </urlset>
