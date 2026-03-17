@@ -1,24 +1,31 @@
 :root{
   --bg:#050505;
-  --bg-soft:#101010;
-  --card:#111111;
-  --text:#f3f0ea;
-  --muted:#b9b1a3;
-  --gold:#b89d57;
-  --gold-soft:#d2b56a;
-  --line:rgba(184,157,87,.22);
-  --shadow:0 18px 60px rgba(0,0,0,.40);
-  --radius:22px;
-  --max:880px;
+  --bg-soft:#0f0f0f;
+  --card:#0d0d0d;
+  --text:#f5f1e8;
+  --muted:#b8afa1;
+  --gold:#b89a56;
+  --gold-soft:#d8bf84;
+  --line:rgba(184,154,86,.20);
+  --white-line:rgba(255,255,255,.08);
+  --radius:28px;
+  --max:900px;
+  --shadow:0 20px 70px rgba(0,0,0,.42);
 }
 
-*{box-sizing:border-box}
+*{
+  box-sizing:border-box;
+}
 
-html{scroll-behavior:smooth}
+html{
+  scroll-behavior:smooth;
+}
 
 body{
   margin:0;
-  background:var(--bg);
+  background:
+    radial-gradient(circle at top center, rgba(184,154,86,.08), transparent 30%),
+    #050505;
   color:var(--text);
   font-family: Georgia, "Times New Roman", serif;
   line-height:1.75;
@@ -31,18 +38,18 @@ a{
 }
 
 a:hover{
-  color:#e3c87f;
+  color:#ead49c;
 }
 
 img{
-  max-width:100%;
   display:block;
+  max-width:100%;
 }
 
 .wrap{
   max-width:var(--max);
   margin:0 auto;
-  padding:28px 18px 60px;
+  padding:22px 16px 56px;
 }
 
 .nav{
@@ -50,76 +57,93 @@ img{
   justify-content:space-between;
   align-items:center;
   gap:12px;
-  margin-bottom:24px;
+  margin-bottom:20px;
   flex-wrap:wrap;
 }
 
 .badge{
   display:inline-block;
-  padding:9px 14px;
+  padding:8px 14px;
   border:1px solid var(--line);
   border-radius:999px;
   color:var(--muted);
   text-decoration:none;
   font-size:13px;
-  letter-spacing:.2px;
+  font-family: Arial, Helvetica, sans-serif;
+  background:rgba(255,255,255,.01);
 }
 
 .badge:hover{
-  border-color:rgba(184,157,87,.45);
   color:var(--text);
+  border-color:rgba(184,154,86,.45);
   text-decoration:none;
 }
 
 .card{
-  background:linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01));
-  border:1px solid rgba(255,255,255,.06);
+  background:linear-gradient(180deg, rgba(255,255,255,.015), rgba(255,255,255,.005));
+  border:1px solid var(--white-line);
   border-radius:var(--radius);
-  padding:26px 22px;
   box-shadow:var(--shadow);
 }
 
 .hero{
   text-align:center;
-  padding:36px 20px 28px;
-  margin-bottom:24px;
+  padding:54px 26px 46px;
+  margin-bottom:18px;
 }
 
 .logo{
-  width:88px;
-  margin:0 auto 22px;
+  width:170px;
+  margin:0 auto 30px;
+  opacity:.96;
+}
+
+.logo-small{
+  width:84px;
+  margin:0 auto 18px;
   opacity:.95;
 }
 
 .site-title{
-  font-size:clamp(3rem, 10vw, 5.4rem);
-  line-height:.95;
+  margin:0 0 16px;
+  font-size:clamp(4rem, 10vw, 6.8rem);
+  line-height:.92;
   font-weight:700;
-  margin:0 0 26px;
-  letter-spacing:-1.2px;
+  letter-spacing:-1.4px;
 }
 
 .site-tagline{
-  max-width:700px;
-  margin:0 auto 26px;
+  margin:0 auto 22px;
+  max-width:720px;
   color:var(--muted);
   font-style:italic;
-  font-size:clamp(1.25rem, 4.5vw, 2.2rem);
+  font-size:clamp(1.5rem, 4vw, 2.3rem);
   line-height:1.45;
+}
+
+.state-line{
+  max-width:760px;
+  margin:0 auto 28px;
+  color:var(--text);
+  font-size:clamp(1.5rem, 4.2vw, 2.4rem);
+  line-height:1.35;
 }
 
 .intro-block{
   max-width:760px;
   margin:0 auto;
-  color:var(--muted);
+}
+
+.intro-block p{
+  margin:0 0 18px;
+  color:#d2cbc0;
   font-style:italic;
-  font-size:clamp(1.1rem, 3vw, 1.7rem);
-  line-height:1.6;
+  font-size:clamp(1.15rem, 2.5vw, 1.5rem);
+  line-height:1.7;
 }
 
 .cta-row{
-  margin-top:28px;
-  text-align:center;
+  margin-top:26px;
 }
 
 .cta-button{
@@ -127,65 +151,118 @@ img{
   background:var(--gold);
   color:#111;
   text-decoration:none;
-  padding:14px 24px;
+  padding:14px 26px;
   border-radius:6px;
   font-size:1rem;
-  letter-spacing:.3px;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight:600;
+  letter-spacing:.2px;
 }
 
 .cta-button:hover{
-  background:#ceb067;
+  background:#cfb06a;
   color:#111;
   text-decoration:none;
 }
 
+.portal-card{
+  padding:30px 24px 30px;
+}
+
+.portal-title{
+  margin:0 0 12px;
+  font-size:clamp(2rem, 5vw, 2.8rem);
+  line-height:1.05;
+}
+
+.portal-intro{
+  margin:0 0 18px;
+  color:var(--muted);
+  font-style:italic;
+  font-size:1.08rem;
+}
+
+.portal-lead{
+  margin:0 0 18px;
+  color:#ddd5c8;
+  font-size:1.08rem;
+}
+
+.start-list{
+  margin:0 0 18px 22px;
+  padding:0;
+}
+
+.start-list li{
+  margin:10px 0;
+}
+
+hr{
+  border:0;
+  border-top:1px solid var(--white-line);
+  margin:24px 0 20px;
+}
+
+.muted{
+  color:var(--muted);
+}
+
+.spiken-note{
+  color:var(--muted);
+  font-style:italic;
+}
+
 .state-card{
   text-align:center;
-  margin-bottom:24px;
+  padding:44px 24px 34px;
+  margin-bottom:18px;
 }
 
 .state-label{
+  margin:0 0 8px;
   color:var(--gold-soft);
   font-size:1rem;
-  margin:0 0 10px;
-  letter-spacing:.2px;
+  font-style:italic;
 }
 
 .state-quote{
-  margin:0 auto 10px;
-  max-width:700px;
-  color:#d7d0c4;
+  margin:0 auto 12px;
+  max-width:720px;
+  color:#d8d1c7;
   font-style:italic;
-  font-size:clamp(1.5rem, 5vw, 2.8rem);
+  font-size:clamp(1.8rem, 5vw, 3rem);
   line-height:1.45;
 }
 
 .state-sign{
-  color:#8f877a;
+  margin:0;
+  color:#93897a;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight:700;
   letter-spacing:.8px;
-  margin:0;
+}
+
+.article-card{
+  padding:34px 26px 34px;
 }
 
 .section-title{
-  font-size:clamp(2.4rem, 8vw, 4rem);
-  line-height:1.06;
-  margin:0 0 20px;
-  letter-spacing:-.8px;
+  margin:0 0 18px;
+  font-size:clamp(2.8rem, 7vw, 4.8rem);
+  line-height:1.02;
+  letter-spacing:-1px;
 }
 
 .lead{
-  font-size:1.2rem;
-  color:var(--text);
+  font-size:1.28rem;
+  color:#ece7dc;
   margin-bottom:18px;
 }
 
 h2{
+  margin:28px 0 10px;
   font-size:clamp(1.6rem, 4vw, 2.2rem);
   line-height:1.15;
-  margin:30px 0 12px;
-  letter-spacing:-.3px;
 }
 
 p{
@@ -197,31 +274,7 @@ ul{
 }
 
 li{
-  margin:6px 0;
-}
-
-hr{
-  border:0;
-  border-top:1px solid rgba(255,255,255,.08);
-  margin:26px 0;
-}
-
-.muted{
-  color:var(--muted);
-}
-
-.start-list{
-  margin-top:10px;
-}
-
-.start-list li{
-  margin:12px 0;
-}
-
-.spiken-note{
-  color:var(--muted);
-  font-style:italic;
-  font-size:1.02rem;
+  margin:7px 0;
 }
 
 .footer-space{
@@ -230,18 +283,35 @@ hr{
 
 @media (max-width:640px){
   .wrap{
-    padding:20px 14px 44px;
-  }
-
-  .card{
-    padding:22px 18px;
+    padding:18px 14px 40px;
   }
 
   .hero{
-    padding:28px 14px 22px;
+    padding:40px 18px 34px;
   }
 
   .logo{
-    width:78px;
+    width:150px;
+    margin-bottom:24px;
+  }
+
+  .logo-small{
+    width:72px;
+    margin-bottom:16px;
+  }
+
+  .portal-card,
+  .article-card,
+  .state-card{
+    padding-left:18px;
+    padding-right:18px;
+  }
+
+  .site-tagline{
+    margin-bottom:18px;
+  }
+
+  .state-line{
+    margin-bottom:22px;
   }
 }
